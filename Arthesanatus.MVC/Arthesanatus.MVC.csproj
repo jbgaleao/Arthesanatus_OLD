@@ -146,9 +146,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="DataBase\Context\DataContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Entitiy\Mes.cs" />
+    <Compile Include="Models\Entitiy\Receita.cs" />
+    <Compile Include="Models\Entitiy\Revista.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -164,9 +168,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="DataBase\Context\" />
     <Folder Include="DataBase\Mapping\" />
-    <Folder Include="Models\Entitiy\" />
     <Folder Include="Models\Register\" />
     <Folder Include="Models\Search\" />
     <Folder Include="Repository\Interfaces\" />
